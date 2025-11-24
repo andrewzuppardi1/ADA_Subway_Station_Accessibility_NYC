@@ -11,4 +11,4 @@ Here is my sample website!
 
 Explore this map [here](commute_jobsites.html).
 
-Map by Andrew Zuppardi
+***Map by Andrew Zuppardi***
