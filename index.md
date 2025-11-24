@@ -1,4 +1,9 @@
-## Demonstration Map of Network Analysis from Accessibile Subway Stations and Employer Locations
+---
+layout: default
+permalink: /
+---
+
+# Demonstration Map of Network Analysis from Accessibile Subway Stations and Employer Locations
 
 Here is my sample website!
 
