@@ -29,6 +29,7 @@ Map by Andrew Zuppardi
 ### Coefficient of Variation
 ![cv_histogram](cv_histogram.svg)
 
+
 CV values were calculated for each NTA in Manhattan. 
 The estimates appear to be reliable as there were no CV values ≥ 40.
 ### Results
