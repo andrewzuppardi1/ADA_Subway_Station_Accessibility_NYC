@@ -10,7 +10,7 @@ Next, I performed a similar analysis again but included future planned accessibl
 
 Finally, I conducted a network analysis using isochrone buffers to determine how many disability-friendly employers could be reached within a reasonable commute time from stations which were at least Partially Accessible. This analysis is an important part of reviewing the accessibility of the subway system because disabled users need convenient access to job locations. I chose to present this analysis as an interactive webmap which contains the employers that can be reached within reasonable commute times along with the Accessible Hubs and the Gap Areas.
 
-One of the main datasets that I used for this project was a .csv from Data.gov (updated November 15, 2025) which contained MTA subway stations categorized by ADA accessibility status. I did not have to do much additional tweaking to make this data mappable as it already contained latitude and longitude. I also used a list of employers in NYC highlighted for hiring disabled employees that I assembled from two different job websites and then geocoded.
+One of the main datasets used for this project was a .csv from Data.gov (updated November 15, 2025) which contains MTA subway stations categorized by ADA accessibility status. I did not have to do much additional tweaking to make this data mappable as it already contained latitude and longitude. For the future stations planned for 2029, I obtained the list of planned stations from an MTA report and then geocoded the data. To obtain population data on disabled adults within New York City, I used 5-year estimates from the American Community Survey from 2023 at the Neighborhood Tabulation Area level. Finally, I assembled data on disability-friendly employers within New York City from two different job sites.
 
 ![Stations Accessibility](Stations_Accessibility.svg)
 
@@ -26,6 +26,9 @@ One of the main datasets that I used for this project was a .csv from Data.gov (
 Explore this map [here](commute_jobsites.html).
 Map by Andrew Zuppardi
 
+### Coefficient of Variation
+![cv_histogram](cv_histogram.svg)
+CV values were calculated for each NTA in Manhattan. The estimates appear to be reliable as there were no CV values ≥ 40.
 ### Results
 Overall, neighborhoods in northern Manhattan generally had a lower percentage of accessible stations when compared to neighborhoods south of Central Park, and this trend matched the gaps in accessibility calculated using a walkshed analysis.
 
