@@ -28,7 +28,9 @@ Map by Andrew Zuppardi
 
 ### Coefficient of Variation
 ![cv_histogram](cv_histogram.svg)
-CV values were calculated for each NTA in Manhattan. The estimates appear to be reliable as there were no CV values ≥ 40.
+
+CV values were calculated for each NTA in Manhattan. 
+The estimates appear to be reliable as there were no CV values ≥ 40.
 ### Results
 Overall, neighborhoods in northern Manhattan generally had a lower percentage of accessible stations when compared to neighborhoods south of Central Park, and this trend matched the gaps in accessibility calculated using a walkshed analysis.
 
